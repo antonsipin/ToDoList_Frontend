@@ -1,0 +1,163 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.Wrapper {
+  height: 760px;
+  width: 100%;
+
+  @include viewport--2xl {
+    width: 100%;
+    height: 950px;
+  }
+
+  @include viewport--xl {
+    width: 100%;
+    height: 950px;
+  }
+
+  @include viewport--lg {
+    width: 100%;
+    height: 950px;
+  }
+
+  @include viewport--md {
+    width: 100%;
+    height: 1200px;
+   }
+
+  @include viewport--smd {
+    width: 100%;
+    height: 1200px;
+   }
+
+  @include viewport--sm {
+    width: 100%;
+    height: 1350px
+   }
+
+  @include viewport--xs {
+    width: 100%;
+    height: 1350px
+   }
+
+  @include viewport--x {
+    width: 100%;
+    height: 1350px
+   }
+
+  &--White {
+    background-color: white;
+  }
+
+  &--Black {
+    background-color: black;
+  }
+}
+
+.Paginate {
+  margin: 620px 0 0 0;
+  position: absolute;
+
+  @include viewport--md {
+    position: absolute;
+    margin: 640px 0 0 0;
+   }
+
+  @include viewport--sm {
+    position: absolute;
+    margin: 950px 0 0 0;
+   }
+
+  @include viewport--smd {
+    position: absolute;
+    margin: 1024px 0 0 0;
+   }
+
+  @include viewport--xs {
+    position: absolute;
+    margin: 1024px 0 0 0;
+   }
+
+  @include viewport--x {
+    position: absolute;
+    margin: 1024px 0 0 0;
+   }
+}
+
+.taskWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noTasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+.userName {
+  font-weight: 700;
+  color: red;
+  
+  font-size: 16px;
+  flex-shrink: 0;
+
+  @include viewport--sm {
+    font-size: 1rem;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+  } 
+}
+
+.LogoutLink {
+  font-weight: 700;
+  color: blue;
+  margin: 0 10px 0 0;
+  font-size: 16px;
+}
+
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+
+  &--White {
+    background-color: white;
+  }
+
+  &--Black {
+    background-color: black;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 10px 10px;
+  flex-wrap: wrap;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px 0 0 0;
+}
+
+.switchModeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+
+.Select {
+  margin: 5px 0 0 0;
+}

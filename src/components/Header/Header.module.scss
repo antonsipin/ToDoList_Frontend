@@ -1,0 +1,68 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.SignUpLink {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;  
+    margin: 0 10px 10px 10px; 
+    
+    @include viewport--smd {
+        font-size: 1rem;
+      }
+  
+      @include viewport--sm {
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0 5px 10px 5px;
+      }
+}
+
+.SignInLink  {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    margin: 0 10px 10px 10px;
+
+    @include viewport--smd {
+        font-size: 1rem;
+      }
+  
+      @include viewport--sm {
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0 5px 10px 5px;
+      }
+}
+
+.MainPageLink {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    margin: 0 10px 10px 10px;
+    flex-shrink: 0;
+
+    @include viewport--smd {
+        font-size: 1rem;
+      }
+  
+      @include viewport--sm {
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0 5px 10px 5px;
+      }
+}
+
+.Select {
+    margin: 0 0 0 10px;
+}

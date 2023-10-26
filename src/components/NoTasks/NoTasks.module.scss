@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.NoTasks {
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: red;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 600;
+
+    @include viewport--smd {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+  }

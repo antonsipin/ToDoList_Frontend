@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+:export {
+    xs: $viewport--sm - 1px;
+    sm: $viewport--md - 1px;
+    smd: $viewport--smd - 1px;
+    md: $viewport--lg - 1px;
+    lg: $viewport--xl - 1px;
+    xl: $viewport--2xl - 1px;
+    xxl: $viewport--3xl - 1px;
+    xxxl: $viewport--3xl - 1px;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 6px 0 6px 0;
+}
+
+.text {
+    font-variant-numeric: lining-nums proportional-nums;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #363c44
+}
+
+.iconWrapper {
+    user-select: none;
+    display: inline-flex;
+    cursor: pointer;
+    color: rgba(#363C44, 0.4);
+    padding-left: 4px;
+
+    &:not(.active):hover {
+        color: #231F20;
+    }
+
+    &.active {
+        color: #231F20;
+
+        &:hover {
+            color: #231F20;
+        }
+    }
+}
+
+.icon {
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+}

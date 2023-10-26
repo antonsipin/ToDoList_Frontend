@@ -1,0 +1,39 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    height: 760px;
+    width: 100%;
+
+    &--White {
+        background-color: white;
+    }
+
+    &--Black {
+        background-color: black;
+    }
+    
+}
+
+.Form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.WrapperAlertForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 120px 0 20px 0;
+}
+
+.btnText {
+    color: grey;
+}

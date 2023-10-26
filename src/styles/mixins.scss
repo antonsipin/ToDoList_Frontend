@@ -1,0 +1,57 @@
+@import './variables.scss';
+
+// до 1366px
+@mixin viewport--2xl {
+    @media (max-width: #{$viewport--3xl - 1px}) {
+        @content;
+    }
+}  
+ 
+// до 1180px
+@mixin viewport--xl {
+    @media (max-width: #{$viewport--2xl - 1px}) {
+        @content;
+    }
+}    
+
+// до 1180px
+@mixin viewport--lg {
+    @media (max-width: #{$viewport--xl - 1px}) {
+        @content;
+    }
+}
+
+// до 1024px
+@mixin viewport--md {
+    @media (max-width: #{$viewport--lg - 1px}) {
+        @content;
+    }
+}
+
+// до 767px
+@mixin viewport--sm {
+    @media (max-width: #{$viewport--md - 1px}) {
+        @content;
+    }
+}
+
+// до 519px
+@mixin viewport--smd {
+    @media (max-width: #{$viewport--smd - 1px}) {
+        @content;
+    }
+}
+
+// до 359px
+@mixin viewport--xs {
+    @media (max-width: #{$viewport--sm - 1px}) {
+        @content;
+    }
+}
+
+// до 300px
+@mixin viewport--x {
+    @media (max-width: #{$viewport--xs - 1px}) {
+        @content;
+    }
+}
